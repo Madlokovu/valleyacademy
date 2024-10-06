@@ -1,0 +1,392 @@
+@font-face {
+    font-family: "brunoace";
+    src: url(fonts/BrunoAce-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'alexbrush';
+    src: url(fonts/AlexBrush.ttf);
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url(fonts/Raleway.ttf);
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(fonts/RobotoMono-Regular.ttf);
+}
+
+    
+    .our-schools{
+        margin-top: -40px;
+        margin-left: -70px;
+    }
+    
+    .our-schools-lbl{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #fff;
+        font-weight: bolder;
+        font-size: 60px;
+        margin-top: -20px;
+    }
+    
+    
+    .school-lbl{
+        font-family: inherit;
+        color: whitesmoke;
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    
+    
+    .school-of-lang{
+       display:flex;
+       margin-left: 90px;
+       margin-top: -40px;
+       justify-content: space-evenly;
+       
+    }
+    
+    .school-of-commerce{
+        display: flex;
+        margin-left: 170px;
+        margin-top: -40px;
+        justify-content: space-between;
+    }
+    
+    .school-of-science{
+        display: flex;
+        margin-left: 20px;
+        margin-top: 40px;
+        justify-content: space-evenly;
+    }
+
+    .school-lbl-sci{
+        margin-left: 180px;
+    }
+
+    .school-of-tech{
+        margin-left: -150px;
+        margin-top: 40px;
+    }
+    .school-lbl-tech{
+        margin-left: -150px;
+        font-family: 'brunoace';
+    }
+
+
+    
+    .school-of-humanities{
+        display: flex;
+        margin-left: 40px;
+        margin-top: -40px;
+        justify-content: space-evenly;
+    }
+    
+    .school-div{
+        display: flex;
+        margin-bottom: 60px;
+    
+    }
+    
+    
+    .school-div .img-lbl{
+        height: 200px;
+        width: 200px;
+    }
+    
+    .img-lbl{
+        margin-left: -60px;
+    }
+    
+    
+    
+    .school-img{
+        height: 800px;
+        width: 1700px;
+    }
+    
+    .va-lbl-logo-2{
+        font-size: 80px;
+        color:darkgreen;
+        font-family: "alexbrush";
+        font-weight: bold;
+        margin-top: -290px;
+        margin-left: 140px;
+    }
+    
+    .home-menu{
+        margin-left: -1000px;
+    
+    }
+    
+    .school-lbl{
+        margin-left: -140px;
+    
+    }
+    
+    .school-of-languages a{
+        margin-left: -20px;
+    
+    }
+    
+    . .school-of-commerce a{
+        margin-left: -80px;
+    
+    }
+    
+    .school-lbl-lang{
+        margin-left: -130px;
+    }
+    
+    .school-lbl-com{
+        margin-top: 200px;
+        margin-left: -160px;
+    }
+    
+    .school-lbl-hum{
+        margin-top: 200px;
+        margin-left: -140px;
+    }
+    
+    .school-of-commerce{
+        margin-top: -10px;
+    }
+    
+    .school-of-humanities{
+        margin-top: -10px;
+        margin-left: 150px;
+    }
+    
+    
+    .va-logo-slgn{
+        font-family: 'brunoace';
+        font-size: 15px;
+        color:yellow;
+        font-weight: bold;
+        margin-top: -20px;
+        margin-left: 200px;
+    }
+    
+    .school-lbl-lang b{
+        font-family: 'brunoace';
+        
+    }
+    
+    .school-lbl-lang b:hover{
+        color: green;
+        
+    }
+    
+    .school-lbl-com b{
+        font-family: 'brunoace';
+    }
+    
+    .school-lbl-com b:hover{
+        color: green;
+    }
+    
+    .school-lbl-hum b{
+        font-family: 'brunoace';
+    }
+    
+    .school-lbl-hum b:hover{
+        color: green;
+    }
+    
+    .school-of-sci{
+        position: relative;
+        left: 130px;
+    }
+    
+    
+    
+    
+    .school-lbl-sci b{
+        font-family: 'brunoace';
+        position: relative;
+        bottom: -200px;
+        left: -320px;
+    }
+    
+    .school-lbl-sci b:hover{
+        color: green;
+    }
+
+
+.foot-div {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    font-family: 'roboto';
+    }
+
+@media only screen and (max-width: 490px){
+    .background-style-index{
+        background-color: red;
+        background: red;
+    }
+    .pg-content{
+    background-color: blue;
+    background: blue;
+        }
+
+    
+
+}
+
+@media only screen and (min-width: 491px) and (max-width: 920px){
+    .background-style-index{
+        background:#475569;
+        background-image: linear-gradient(whitesmoke,#475569);
+    }
+
+
+    .pg-content{
+    background:#475569;
+        }
+
+    .school-of-languages{
+        margin-left: -600px;
+        margin-top: 600px;
+    }
+    .school-of-languages a{
+        color: blue;
+        font-weight: bolder;
+    }
+    .school-of-languages a:hover{
+        color:blue;
+        font-size: 30px;
+    }
+    
+
+    .school-of-commerce{
+        margin-top: 900px;
+
+    }
+
+    .school-of-commerce a{
+        color: blue;
+        font-weight: bolder;
+
+    }
+    .school-of-commerce a:hover{
+        color:blue;
+        font-size: 30px;
+    }
+    
+
+    .school-of-humanities{
+        margin-top: 900px;
+        margin-left: -400px;
+        
+        
+    }
+
+    .school-of-humanities a{
+        color: blue;
+        font-weight: bolder;
+    }
+
+    .school-of-humanities a:hover{
+        color:blue;
+        font-size: 30px;
+    }
+    
+
+
+    .school-of-science{
+        margin-left: -600px;
+        margin-top:-20px;
+        padding-bottom: 60px;
+    }
+
+    .school-of-science a{
+        color: blue;
+        font-weight: bolder;
+
+    }
+    .school-of-science a:hover{
+        color:blue;
+        font-size: 30px;
+    }
+    
+
+    .school-of-tech{
+        margin-top:-20px ;
+        padding-bottom: 60px;
+    }
+
+    .school-of-tech a{
+        color: blue;
+        font-weight: bolder;
+
+    }
+    .school-of-tech a:hover{
+        color:blue;
+        font-size: 30px;
+    }
+
+
+    }
+
+@media only screen and (min-width: 920px) and (max-width: 1024px){
+    .background-style-index{
+        background: yellow;
+    }
+    .pg-content{
+    background:yellow;
+        }
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 576px) {
+    /* Styles for small screens go here */
+  }
+
+
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    /* Styles for medium screens go here */
+  }
+
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    /* Styles for medium screens go here */
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    /* Styles for large screens go here */
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+ 
+  }
+
+  @media screen and (min-width: 1200px) {
+    
+  }
+  
+
+
+
+
+
+
+
+
+
+    

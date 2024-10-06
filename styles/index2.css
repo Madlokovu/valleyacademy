@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "brunoace";
+    src: url(fonts/BrunoAce-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'alexbrush';
+    src: url(fonts/AlexBrush.ttf);
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url(fonts/Raleway.ttf);
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(fonts/RobotoMono-Regular.ttf);
+}
+
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* START: RESPONSIVE DESIGN */
+
+/* Media query for medium screens (e.g., tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Adjustments for medium-sized screens */
+    .academy-img {
+        width: 70%; /* Adjust the image size */
+    }
+    .va-lbl-index {
+        font-size: 30px; /* Adjust the font size */
+    }
+    .tag-line {
+        display: block; /* Display the tagline */
+    }
+    /* Other adjustments as needed */
+}
+
+/* Media query for large screens (e.g., desktops) */
+@media only screen and (min-width: 1025px) {
+    /* Adjustments for larger screens */
+    .academy-img {
+        width: 100%; /* Adjust the image size */
+    }
+    .va-lbl-index {
+        font-size: 40px; /* Adjust the font size */
+    }
+    .tag-line {
+        display: block; /* Display the tagline */
+    }
+    /* Other adjustments as needed */
+}
+  
+.background-style-index {
+    background-image: url(../images/nicebg.jpg);
+    background-size: cover;
+
+}
+
+.academy-badge{
+    margin-left: 450px;
+}
+
+.academy-img{
+    height: 1500px;
+    width:1500px;
+}
+
+.va-lbl-index{
+    font-size: 90px;
+    color: #FFFB73;
+    font-family: 'alexbrush';
+    margin-top: -250px;
+    margin-left: 60px; 
+}
+
+.tag-line{
+    font-family:'brunoace';
+    font-size: 15px;
+    color: greenyellow;
+    margin-left: 150px;
+    margin-top: -20px;
+}
+
+.school-deer{
+    height: 200px;
+    transition: transform 0.3s;
+    padding-bottom: 0%;
+    margin-top: 40px;
+
+}
+.school-lbl{
+    text-decoration: none;
+    font-family: 'brunoace';
+    font-size: 30px;
+    color: whitesmoke;
+    margin-left: 20px;
+    padding-top: 0%;
+    transition: transform 0.3s;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+
+.our-schools{
+    background-image: ;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;/*smooth transition*/
+    
+}
+.our-schools a{
+    text-decoration: none;
+}
+
+.school-deer:hover,
+.school-lbl:hover {
+    cursor: pointer;
+    transform: scale(1.9) rotate(360deg); /* Enlarge by 90% and rotate 360 degrees when hovering */
+
+}
+
+
+  
+
+
+    

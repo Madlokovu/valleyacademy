@@ -1,0 +1,963 @@
+@font-face {
+    font-family: "brunoace";
+    src: url(fonts/BrunoAce-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'alexbrush';
+    src: url(fonts/AlexBrush.ttf);
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url(fonts/Raleway.ttf);
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(fonts/RobotoMono-Regular.ttf);
+}
+
+/* Base styles */
+.school-lbl {
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: orangered;
+    transition: color 0.3s ease, transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.school-lbl:hover {
+    color: yellow; /* Change to desired color */
+    transform: scale(1.1); /* Scale the text up */
+}
+
+/* Mobile Design for small screens Starts Here */
+@media only screen and (max-width: 600px) {
+    /* Index Page Design  Starts Here */
+    .background-style-index {
+        background-image: none;
+        background-color: #00235B;
+    }
+    body.background-style-index {
+        background-image: none;
+        background-size: cover;
+    }
+
+    .academy-badge {
+        margin-left: 50px;
+        font-family: 'alexbrush';
+    }
+
+    .academy-img {
+        margin-left: -50px;
+        height: 400px;
+        width: 700px;
+    }
+
+    .va-lbl-index {
+        font-size: 50px;
+        color: orangered;
+        margin-left: -50px;
+        margin-top: -150px;
+    }
+
+    .enter{
+        margin-left: 100px;
+    }
+
+    .tag-line {
+        display: none;
+    }
+
+    .our-schools {
+        flex-direction: column;
+        align-items: center;
+        font-family: 'brunoace';
+    }
+
+    .our-schools a {
+        text-decoration: none;
+        color: whitesmoke;
+
+    }
+
+    .our-schools a:hover {
+        background-color: orangered;
+    }
+
+    .school-deer {
+        height: 50px;
+        width: 50px;
+    }
+
+    .school-lbl {
+        padding: 20px;
+        background-color: black;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        color: orangered;
+        transition: color 0.3s ease, transform 0.3s ease; /* Add transition for smooth effect */
+    }
+
+    .school-lbl:hover {
+        color: yellow; 
+        transform: scale(1.1); 
+    }
+
+    .school-lbl a {
+        margin-left: 800px;
+    }
+    /* Index Page Design  Ends  Here */
+
+
+
+    .va-logo{
+        margin-left: 50px;
+    }
+    .top-matter-languages{
+        background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%),hsl(240,56%,42%));
+    }
+    .top-matter-science{
+        background :linear-gradient(180deg, rgb(255, 09, 200) 0%, rgb(200, 07, 113) 50%, rgb(162, 200, 27) 100%);
+    }
+    .top-matter-humanities{
+        background:linear-gradient(180deg, rgb(0, 0, 14) 0%, rgb(145, 62, 255) 50%, rgb(162, 255, 27) 100%);
+    }
+    .top-matter-technology{
+        background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);
+    }
+    }
+    .top-matter-commerce{
+        background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);
+    }
+
+    .va-logo-icon{
+        height: 100px;
+        width: 200px;
+        margin-left: -50px;
+        margin-top: 20px;
+    }
+
+    .schol-lbl{
+        margin-top: -90px;
+    }
+
+
+    .va-logo-lbl{
+        display: none;
+    }
+    .school-of{
+        font-family: 'alexbrush';
+        margin-left: 200px;
+    }
+
+    .school-name{
+        font-family: 'roboto';
+        margin-left: 150px;
+        font-size: 30px;
+
+    }
+
+    .nav-menu a {
+        text-decoration: none;
+        margin-top: 5px;
+        font-family: 'brunoace';
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .subj-head a{
+        text-decoration: none;
+    }
+
+    .subj-icon {
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        margin-left: 20px;
+        margin-top: 50px;
+        
+    }
+
+
+    .subj-lbl{
+        font-family: 'brunoace';
+    }
+
+
+    .grade-div{
+        font-family: 'alexbrush';
+    }
+
+    .video-lessons{
+        font-family: 'brunoace';
+    }
+
+    .video-lessons-list,
+    .past-exam-memos,
+    .past-exam-papers{
+        font-family: 'brunoace';
+    }
+
+    .subj-lbl{
+        color:yellow;
+
+    }
+
+    .video-lessons-list a,
+    .past-exam-memos a,
+    .past-exam-papers a{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+
+
+    .subj-div-section1{
+        background-color: #191970;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .subj-div-section2{
+        background-color:#95d0ec;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    
+    }
+    
+    .subj-div-section3{
+        background-color:#DE781F;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    .subj-div-section4{
+        background-color:#4B0082;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    .subj-div-section5{
+        background-color:#378200;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    .subj-div-section6{
+        background-color:#95dfec;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    
+    .subj-div-section7{
+        background-color:#de5a1f;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    .subj-div-section8{
+        background-color:#191970;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    .subj-div-section9{
+        background-color:burlywood;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    
+    }
+
+    .signature-block {
+        font-family: 'brunoace';
+        text-align: center;
+        margin-top: 20px;
+        font-size: 0.9em;
+        color: #777;
+    }
+
+    
+
+
+
+}
+/* Mobile Design for small screens Ends Here */
+
+
+
+/* Tablet Design for medium screens Starts Here */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .our-schools{
+
+    }
+
+    .background-style-index {
+        background-image: none;
+        background-color: #DE781F;
+    }
+
+    .academy-badge {
+        margin-left: 100px;
+    
+    }
+
+    .va-lbl-index{
+        color: #00235B;
+        font-family: 'alexbrush';
+        font-size: 50px;
+        margin-top: -120px;
+        margin-left: 40px;
+    }
+
+    .tag-line{
+       color: #00235B; 
+       font-family:'roboto';
+       margin-top: -10px;
+    }
+
+    .school-deer{
+        height: 50px;
+        width: 50px;
+    }
+
+    .school-lbl{
+        font-family:'brunoace';
+        color: whitesmoke;
+    }
+
+    .our-schools a {
+        text-decoration: none;
+        color: whitesmoke;
+ 
+    }
+
+    .school a:hover{
+        background-color: #DE781F;
+   }
+
+   /*Subpages*/
+   .va-logo{
+    margin-left: 50px;
+}
+.top-matter-languages{
+    background:linear-gradient(180deg, rgb(127, 30, 14) 0%, rgb(250, 20, 255) 50%, rgb(15, 200, 27) 100%);;
+}
+.top-matter-science{
+    background:linear-gradient(180deg, rgb(255, 09, 200) 0%, rgb(200, 07, 113) 50%, rgb(162, 200, 27) 100%);
+}
+.top-matter-humanities{
+    background: linear-gradient(180deg, rgb(0, 0, 14) 0%, rgb(145, 62, 255) 50%, rgb(162, 255, 27) 100%);
+}
+.top-matter-technology{
+    background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);
+}
+.top-matter-commerce{
+    background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);
+}
+
+
+.va-logo-lbl{
+    margin-left: 110px;
+    font-size:20px ;
+    font-family: 'alexbrush';
+    color: whitesmoke;
+    margin-top: -150px;
+}
+.school-of{
+    font-family: 'alexbrush';
+    margin-left: 200px;
+}
+
+.school-name{
+    font-family: 'brunoace';
+    margin-left: 150px;
+    font-size: 50px;
+
+}
+
+.nav-menu a {
+    text-decoration: none;
+    margin-top: 5px;
+    font-family: 'brunoace';
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.subj-head a{
+    text-decoration: none;
+}
+
+.subj-icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-left: 20px;
+    margin-top: 50px;   
+}
+
+
+.subj-lbl{
+    font-family: 'brunoace';
+}
+
+
+.grade-div{
+    font-family: 'alexbrush';
+}
+
+.video-lessons{
+    font-family: 'brunoace';
+}
+
+.video-lessons-list,
+.past-exam-memos,
+.past-exam-papers{
+    font-family: 'brunoace';
+}
+
+.subj-lbl{
+    color:yellow;
+
+}
+
+.video-lessons-list a,
+.past-exam-memos a,
+.past-exam-papers a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.subj-div-section1{
+    background-color: #191970;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.subj-div-section2{
+    background-color:#95d0ec;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+
+}
+
+.subj-div-section3{
+    background-color:#DE781F;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.subj-div-section4{
+    background-color:#4B0082;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.subj-div-section5{
+    background-color:#378200;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.subj-div-section6{
+    background-color:#95dfec;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+.subj-div-section7{
+    background-color:#de5a1f;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.subj-div-section8{
+    background-color:#191970;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.subj-div-section9{
+    background-color:#9E2A11;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+}
+
+/* Tablet Design for medium screens Ends Here */
+
+
+
+
+
+
+
+
+
+/* Desktop Design for large screens Starts Here */
+@media only screen and (min-width: 1025px) {
+
+    /*START: Stylesheet for the index.html */
+    .background-style-index {
+        background-color: #36454F;
+        background-size: cover;
+        }
+
+    .our-schools-index a{
+        text-decoration: none;
+    }
+
+    .academy-badge{
+        margin-left: 100px;
+        margin-top: 100px;
+        }
+
+
+
+    .school-lang-index{
+        margin-top: -300px;
+    }
+
+
+    .school-deer-lang-index{
+        margin-top: -500px;
+        }
+
+    .school-lbl-sci-index,
+    .school-lbl-comm-index,
+    .school-lbl-hum-index,
+    .school-lbl-tech-index{
+        font-family: 'brunoace';
+        font-size: 50px;
+        margin-left: 50px;
+        color: whitesmoke;
+        }
+
+    .enter{
+        font-family: 'brunoace';
+        font-size: 50px;
+        margin-left: 50px;
+        color: whitesmoke;
+        margin-left: 480px;
+        margin-top: 350px;
+    }
+
+    .signature-block {
+        font-family: 'brunoace';
+        text-align: center;
+        margin-top: 20px;
+        font-size: 0.9em;
+        color: #777;
+    }
+
+
+    .school-sci-index{
+        margin-left: 2500px;
+        margin-top: -600px;
+    }
+    
+
+.academy-img{
+    height: 500px;
+    width: 1000px;
+    margin-left: 400px;
+}
+
+.va-lbl-index{
+    font-family: 'alexbrush';
+    color:yellow;
+    font-size: 100px;
+    margin-left: 350px;
+    margin-top: -200px;
+}
+
+.tag-line{
+    font-family:'brunoace';
+    font-size: 25px;
+    color:firebrick;
+    margin-left: 350px;
+    margin-top: -20px;
+}
+
+.school-deer{
+    height: 200px;
+    transition: transform 0.3s;
+    padding-bottom: 0%;
+    margin-top: 40px;
+}
+
+
+.school-lbl{
+    text-decoration: none;
+    font-family: 'brunoace';
+    font-size: 30px;
+    color: whitesmoke;
+    margin-left: 20px;
+    padding-top: 0%;
+    transition: transform 0.3s;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+
+
+.school-deer:hover,
+.school-lbl:hover {
+    cursor: pointer;
+    color: #de5a1f;
+    transform: scale(1.9) rotate(360deg); /* Enlarge by 90% and rotate 360 degrees when hovering */
+
+}
+    /*END: Stylesheet for the index.html */
+
+.top-matter-science{
+    background:linear-gradient(180deg, rgb(255, 09, 200) 0%, rgb(200, 07, 113) 50%, rgb(162, 200, 27) 100%);
+    display: flex;
+}
+.va-logo-icon{
+    margin-left: 100px;
+
+}
+
+.va-logo-lbl{
+    font-size: 50px;
+    font-family: 'alexbrush';
+    margin-top: -180px;
+    color: #de5a1f;
+}
+
+.school-lbl{
+    margin-left: 1800px;
+    margin-top: 150px;
+    background-color: transparent;
+    transition: none;
+    animation: none;
+    transform: none;
+    margin-top: 50px;
+    color: black;
+}
+
+.top-matter-science{
+    background:linear-gradient(180deg, rgb(255, 09, 200) 0%, rgb(200, 07, 113) 50%, rgb(162, 200, 27) 100%);
+}
+
+
+.school-of{
+    font-family: 'alexbrush';
+    font-size: 30px;
+}
+
+.school-name{
+    font-family: 'brunoace';
+    font-size: 50px;
+}
+
+
+.nav-menu{
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    margin-top: -40px;
+    margin-left: -10px;
+    cursor: pointer;
+    justify-content: space-between;
+    font-size: 10px;
+    font-family: 'brunoace';
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav-menu a:hover{
+    font-size: 20px;
+    color: firebrick;
+}
+
+.subj-icon {
+    height: 500px;
+    width: 500px;
+    border-radius: 250px;
+    margin-left: 20px;
+    margin-top: 50px;   
+}
+
+.subj-lbl{
+    font-family: 'brunoace';
+}
+
+.grade-div{
+    font-family: 'alexbrush';
+}
+
+.video-lessons{
+    font-family: 'brunoace';
+}
+
+.video-lessons-list a,
+.past-exam-papers a,
+.past-exam-memos a{
+    text-decoration: none;
+    font-family: 'brunoace';
+    font-size: 10px;
+
+}
+
+.video-lessons-list a:hover,
+.past-exam-papers a:hover,
+.past-exam-memos a:hover{
+    color: yellow;
+    font-size: 10px;
+}
+
+
+
+.subj-div-section1{
+    background-color: #191970;
+    margin-top: 70px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.subj-div-section2{
+    background-color:#95d0ec;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.subj-div-section3{
+    background-color:#DE781F;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.subj-div-section4{
+    background-color:#4B0082;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.subj-div-section5{
+    background-color:#378200;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.subj-div-section6{
+    background-color:#95dfec;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    display: flex;
+}
+
+
+.subj-div-section7{
+    background-color:#de5a1f;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.subj-div-section8{
+    background-color:#191970;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.subj-div-section9{
+    background-color:#9E2A11;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.subj-head a{
+    text-decoration: none;
+}
+
+.subj-tail{
+    display: flex;
+    margin-left: 100px;
+    padding-top: 50px;
+
+}
+
+.subj-tail a{
+    color: whitesmoke;
+    font-size: 10px;
+}
+
+.subj-tail a:hover{
+    font-size: 20px;
+    color: greenyellow;
+}
+
+.tail-1{
+    margin-left:-150px;
+}
+
+.tail-2{
+    margin-left: 50px;
+}
+
+.tail-3{
+    margin-left: 50px;
+}
+
+
+
+.video-lessons{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.grade-div{
+    font-family: 'alexbrush';
+    font-size: 40px;
+}
+
+.subj-lbl{
+    color: yellow;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+.exams{
+    margin-left:100px ;
+}
+
+.memo{
+    margin-left: 200px;
+}
+
+.top-matter-languages{
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%),hsl(240,56%,42%));
+    display: flex;
+}
+
+.top-matter-technology{
+    background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);
+    display: flex;
+}
+
+.school-lbl-tech{
+    margin-left: 1500px;
+    margin-top: 100px;
+}
+
+.schol-lbl{
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.top-matter-commerce{
+    background:linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);
+    display: flex;
+}
+
+.top-matter-humanities{
+    background: linear-gradient(180deg, rgb(0, 0, 14) 0%, rgb(145, 62, 255) 50%, rgb(162, 255, 27) 100%);
+    display: flex;
+    margin-bottom: -20px;
+}
+.va-logo{
+    margin-left: 20px;
+}
+.va-logo-icon2{
+    margin-left: 80px;
+    margin-bottom: -15px;
+}
+
+a{
+    color: red;
+}
+
+a:visited{
+    color:lightgrey;
+}
+
+a:active:{
+    color: yellow;
+}
+
+
+/* Desktop Design for large screens Ends Here */
+
